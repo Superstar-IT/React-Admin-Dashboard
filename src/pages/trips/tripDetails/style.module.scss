@@ -1,0 +1,58 @@
+@import 'assets/styles/mixins.scss';
+
+.cardHeader, .cardFooter {
+  padding-left: .5rem !important;
+  padding-right: .5rem !important;
+}
+
+.cardBody {
+  padding: .3rem .3rem !important;
+  font-size: 13px;
+}
+
+.formItem {
+  width: 100%;
+  margin-right: 0px !important;
+  margin-bottom: 5px;
+}
+
+.ant-form-inline .ant-form-item {
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.utils__title {
+  padding-left: .3rem;
+  font-size: 1rem;
+  color: #0e0b20;
+}
+
+.cardCustom {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: .8rem !important;
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+
+.colLg6:first-child {
+  padding-left: 1rem !important;
+  padding-right: 0.2rem !important;
+}
+
+.colLg6C {
+  padding-right: 1rem !important;
+  padding-left: 0.2rem !important;
+}
+
+.colLg4 {
+  padding-left: 1rem !important;
+  padding-right: 0.2rem !important;
+}
+
+.colLg8 {
+  padding-right: 1rem !important;
+  padding-left: 0.2rem !important;
+}

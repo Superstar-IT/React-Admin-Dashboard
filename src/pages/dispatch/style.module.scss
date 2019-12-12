@@ -1,0 +1,122 @@
+@import 'assets/styles/mixins.scss';
+
+.cardHeader, .cardFooter {
+  padding-left: .5rem !important;
+  padding-right: .5rem !important;
+}
+
+.cardBody {
+  padding: .3rem .3rem !important;
+}
+
+.formItem {
+  width: 100%;
+  margin-right: 0px !important;
+  margin-bottom: 5px;
+}
+
+.ant-form-inline .ant-form-item {
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.utils__title {
+  padding-left: .3rem;
+  font-size: 1rem;
+  color: #0e0b20;
+}
+
+.utils__icon {
+  padding-left: .3rem;
+  font-size: 1rem;
+}
+
+.card {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: .5rem !important;
+  border-radius: 7px;
+  border-color: #e4e9f0;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+
+.marginBottom10 {
+  margin-bottom: 10px;
+}
+
+.marginTop25 {
+  margin-top: 29px;
+}
+
+.active {
+  background: rgba(0, 0, 0, 0.2)
+}
+
+.colLg6:first-child {
+  padding-left: 1rem !important;
+  padding-right: 0.2rem !important;
+}
+
+.colLg6:last-child {
+  padding-right: 1rem !important;
+  padding-left: 0.2rem !important;
+}
+
+
+.colLg3:first-child {
+  padding-left: 1rem !important;
+  padding-right: 0.2rem !important;
+}
+
+.colLg3L {
+  padding-right: 1rem !important;
+  padding-left: 0.2rem !important;
+}
+
+.colLg6Center {
+  padding-right: 0.2rem !important;
+  padding-left: 0.2rem !important;
+}
+
+.fontBold {
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.formItemPic {
+  border-radius: 40px;
+  border-width: 1px
+}
+.roundPic {
+  border-radius: 40px;
+  border-width: 1px
+}
+
+
+.colLg3F {
+  padding-right: 0.2rem !important;
+  padding-left: 1rem !important;
+}
+
+.colLg4F {
+  padding-right: 0.2rem !important;
+  padding-left: 0.2rem !important;
+}
+
+.colLg5F {
+  padding-right: 0.2rem !important;
+  padding-left: 0.2rem !important;
+}

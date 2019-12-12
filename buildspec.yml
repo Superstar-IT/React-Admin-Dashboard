@@ -1,0 +1,33 @@
+version: 0.2
+
+#env:
+  #variables:
+     # key: "value"
+     # key: "value"
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+
+phases:
+  install:
+    commands:
+      - npm install
+      # - command
+  pre_build:
+    commands:
+      - cp .env src
+      # - command
+  build:
+    commands:
+      - npm run build
+      # - command
+  #post_build:
+    #commands:
+      #- cp .env build
+      # - command
+artifacts:
+  files:
+    - '**/*'
+    # - location
+  discard-paths: no
+  base-directory: 'build'

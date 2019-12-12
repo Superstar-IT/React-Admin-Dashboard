@@ -1,0 +1,115 @@
+@import 'assets/styles/mixins.scss';
+
+.head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.title {
+  font-weight: 700;
+  font-size: rem(13);
+}
+
+.note {
+  font-size: rem(13);
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.value {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: rem(15);
+  line-height: 1;
+  margin-top: rem(5);
+  margin-bottom: rem(5);
+  margin-left: auto;
+}
+
+.line {
+  margin-bottom: rem(5);
+}
+
+.lineDescr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: $gray-darken;
+}
+
+
+.cardHeader, .cardFooter {
+  padding-left: .5rem !important;
+  padding-right: .5rem !important;
+}
+
+.cardBody {
+  padding: .3rem .3rem !important;
+}
+
+.formItem {
+  width: 100%;
+  margin-right: 0px !important;
+  margin-bottom: 5px;
+}
+
+.ant-form-inline .ant-form-item {
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.utils__title {
+  padding-left: .3rem;
+  font-size: 1rem;
+  color: #0e0b20;
+}
+
+.card {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: .8rem !important;
+  border-radius: 7px;
+  border-color: #e4e9f0;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+.marginLeft5 {
+  margin-left: 5px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.badgeNoDriver {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+.badgeCancPass {
+  background: #7b0005 !important;
+  color: #ffffff !important;
+}
+
+.width100 {
+  width: 100px
+}
