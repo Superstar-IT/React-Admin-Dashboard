@@ -4,7 +4,29 @@ export async function getLeftMenuData() {
       title: 'Dashboard',
       key: 'dashboard',
       icon: 'fa fa-pie-chart',
-      url: '/dashboard'
+      url: '/dashboard',
+      children: [
+        {
+          key: 'dashboard-alpha',
+          title: 'Dashboard(alpha)',
+          url: '/dashboard/alpha',
+        },
+        {
+          key: 'dashboard-beta',
+          title: 'Dashboard(beta)',
+          url: '/dashboard/beta',
+        },
+        {
+          key: 'dashboard-gamma',
+          title: 'Dashboard(gamma)',
+          url: '/dashboard/gamma',
+        },
+        {
+          key: 'dashboard-docs',
+          title: 'Dashboard(docs)',
+          url: '/dashboard/docs',
+        },
+      ]
     },
     {
       title: 'Drivers map',

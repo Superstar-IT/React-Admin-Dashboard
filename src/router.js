@@ -127,9 +127,29 @@ const routes = [
       component: loadable(() => import('pages/fleets/viewFleet')),
   },
 
+  // {
+  //   path: '/dashboard',
+  //       component: loadable(() => import('pages/dashboard/alpha')),
+  // },
+
   {
-    path: '/dashboard',
-        component: loadable(() => import('pages/dashboard/crypto')),
+    path: '/dashboard/alpha',
+        component: loadable(() => import('pages/dashboard/alpha')),
+  },
+
+  {
+    path: '/dashboard/beta',
+        component: loadable(() => import('pages/dashboard/beta')),
+  },
+
+  {
+    path: '/dashboard/gamma',
+        component: loadable(() => import('pages/dashboard/gamma')),
+  },
+
+  {
+    path: '/dashboard/docs',
+        component: loadable(() => import('pages/dashboard/docs')),
   },
 
   {
